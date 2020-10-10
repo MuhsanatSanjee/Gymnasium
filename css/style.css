@@ -1,0 +1,1020 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a a:hover a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+.title {
+    text-align: center;
+}
+
+.title h2 {
+    color: #222222;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/***********************nav part start********************/
+
+nav {
+    background: #0d0d0d;
+    padding: 0 !important;
+    position: absolute !important;
+    top: 30px;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+nav .navbar-brand {
+    padding: 0;
+    background: #323232;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+    position: absolute;
+    transform: skewX(-45deg);
+}
+
+nav .navbar-brand img {
+    transform: skewX(45deg);
+}
+
+nav button i{
+        color: #fff;
+    }
+
+
+ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    background: #fff;
+    background: transparent;
+    margin-left: 10px;
+    text-transform: uppercase;
+    padding: 20px 10px;
+    position: relative;
+    transition: .4s;
+}
+
+ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #e23e38;
+    height: 3px;
+    width: 0;
+    content: '';
+    transition: .4s;
+}
+
+ul li a:hover {
+    background: #fff;
+    color: #222222;
+}
+
+ul li a:hover:after {
+    width: 100%;
+}
+
+/***********************nav part end********************/
+
+
+
+
+
+/*********************** banner part start********************/
+
+#banner_part .banner {
+    background: url(../image/banner.png) no-repeat center;
+    background-size: cover;
+}
+
+
+#banner_part .banner .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    padding-top: 360px;
+    padding-bottom: 120px;
+}
+
+#banner_part .banner .overlay .text {
+    text-align: center;
+}
+
+#banner_part .banner .overlay .text h3 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+#banner_part .banner .overlay .text h3:after {
+    position: absolute;
+    top: -90%;
+    left: 255px;
+    width: 170px;
+    height: 2px;
+    background: #e23e38;
+    content: '';
+}
+
+#banner_part .banner .overlay .text h3:before {
+    position: absolute;
+    top: -90%;
+    right: 230px;
+    width: 140px;
+    height: 2px;
+    background: #e23e38;
+    content: '';
+}
+
+#banner_part .banner .overlay .text h1 {
+    color: #e23e38;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+    position: relative;
+}
+
+#banner_part .banner .overlay .text h1:after {
+    position: absolute;
+    top: -87px;
+    left: 255px;
+    width: 2px;
+    height: 260px;
+    background: #e23e38;
+    content: '';
+}
+
+#banner_part .banner .overlay .text h1:before {
+    position: absolute;
+    top: -87px;
+    right: 230px;
+    width: 2px;
+    height: 260px;
+    background: #e23e38;
+    content: '';
+}
+
+
+#banner_part .banner .overlay .text p {
+    color: #b7b7b7;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    width: 500px;
+    margin: 0 auto;
+    line-height: 22px;
+    position: relative;
+}
+
+#banner_part .banner .overlay .text p:before {
+    position: absolute;
+    bottom: -37px;
+    right: -73px;
+    width: 33px;
+    height: 2px;
+    background: #e23e38;
+    content: '';
+}
+
+#banner_part .banner .overlay .text p:after {
+    position: absolute;
+    bottom: -37px;
+    left: -48px;
+    width: 41px;
+    height: 2px;
+    background: #e23e38;
+    content: '';
+}
+
+
+
+#banner_part .banner .overlay .text a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+    border: 1px solid #e23e38;
+    background: #e23e38;
+    padding: 10px 20px;
+}
+
+#banner_part .banner .overlay .text a:hover {
+    background: transparent;
+    border-color: #fff;
+}
+
+
+
+
+
+#banner_part .two {
+    background: url(../image/banner-2.jpg) no-repeat center;
+    background-size: cover;
+}
+#banner_part .two .ovrly {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding-top: 360px;
+    padding-bottom: 120px;
+}
+
+#banner_part .two .ovrly .text{
+    margin-left: 30px;
+}
+
+#banner_part .two .ovrly .text h3 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#banner_part .two .ovrly .text h1 {
+    color: #e23e38;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+
+#banner_part .two .ovrly .text p {
+    color: #b7b7b7;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    width: 500px;
+    line-height: 22px;
+}
+
+
+#banner_part .two .ovrly .text a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+    border: 1px solid #e23e38;
+    background: #e23e38;
+    padding: 10px 20px;
+}
+
+#banner_part .two .ovrly .text a:hover{
+    background: transparent;
+    border-color: #fff;
+
+}
+
+
+
+
+
+
+
+#banner_part .three {
+    background: url(../image/banner-3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+#banner_part .three .ovrly {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding-top: 360px;
+    padding-bottom: 120px;
+}
+
+#banner_part .three .ovrly .text{
+    margin-left: 30px;
+}
+
+
+#banner_part .three .ovrly .text h3 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+#banner_part .three .ovrly .text h1 {
+    color: #e23e38;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+
+#banner_part .three .ovrly .text p {
+    color: #b7b7b7;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    width: 500px;
+    line-height: 22px;
+}
+
+
+#banner_part .three .ovrly .text a {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+    border: 1px solid #e23e38;
+    background: #e23e38;
+    padding: 10px 20px;
+}
+
+#banner_part .three .ovrly .text a:hover{
+    background: transparent;
+    border-color: #fff;
+
+}
+
+
+
+
+
+
+
+#banner_part ul{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#banner_part ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+#banner_part ul li button{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #e23e38;
+    border-radius: 50%;
+    font-size: 0;
+    outline: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+#banner_part ul .slick-active button{
+    background: #e23e38;
+}
+
+/*********************** banner part end********************/
+
+
+
+
+
+/***********************about part start********************/
+
+#about_part{
+    margin-top: 80px;
+}
+
+#about_part .vdo .img img{
+    width: 100%;
+    height: 100%;
+}
+
+#about_part .vdo .img i{
+    color: #e23e38;
+    font-size: 56px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about_part .txt .detail {
+    text-align: center;
+}
+
+#about_part .detail p {
+    width: 455px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #444444;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+
+/***********************about part end********************/
+
+
+
+
+/***********************gallery part start********************/
+
+#gallery_part {
+    margin-top: 80px;
+}
+
+#gallery_part .banner {
+    background: url(../image/gallerybg.png) no-repeat center;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+#gallery_part .banner .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    padding-top: 30px;
+}
+
+#gallery_part .banner .overlay .image {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#gallery_part .banner .overlay .image img {
+    width: 100%;
+    height: 100%;
+}
+
+#gallery_part .banner .overlay .image .ovrlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(226, 62, 56, .5);
+    border: 3px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: .4s;
+}
+
+#gallery_part .banner .overlay .image:hover .ovrlay {
+    transform: scale(.95);
+}
+
+#gallery_part .banner .overlay .image .ovrlay i {
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/***********************gallery part end********************/
+
+
+
+
+/***********************team part start********************/
+
+#team_part {
+    margin-top: 80px;
+}
+
+#team_part .title {
+    margin-bottom: 60px;
+}
+
+#team_part .member {
+    transition: .4s
+}
+
+#team_part .member .img {
+    position: relative;
+}
+
+#team_part .member .img img {
+    width: 100%;
+}
+
+#team_part .member .img .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(226, 62, 56, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 5px solid #fff;
+    transform: scale(0);
+    transition: .4s;
+}
+
+#team_part .member .img .overlay .icon {
+    width: 30px;
+    position: absolute;
+    top: 26%;
+    right: 10px;
+
+}
+
+#team_part .member .img .overlay .icon i {
+    color: #fff;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 10px;
+    transition: .4s;
+}
+
+#team_part .member .img .overlay .icon i:hover {
+    color: #1da0f2;
+    background: #fff;
+}
+
+#team_part .member .text {
+    text-align: center;
+    border: 1px solid transparent;
+    border-top: 0;
+    padding-top: 20px;
+    transition: .4s;
+}
+
+#team_part .member .text h5 {
+    color: #222222;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#team_part .member .text h6 {
+    color: #444444;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#team_part .member .text p {
+    color: #444444;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 18px;
+    width: 230px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transition: .4s;
+}
+
+#team_part .member:hover .img .overlay {
+    transform: scale(.93);
+}
+
+#team_part .member:hover .text {
+    border-color: #dddddd;
+}
+
+#team_part .member:hover .text p {
+    opacity: 1;
+}
+
+#team_part .member:hover {
+    transform: scaleY(1.1);
+}
+
+/***********************team part end********************/
+
+
+
+/**********************testimonial part start*****************/
+
+#testmonial_part {
+    margin-top: 60px;
+}
+
+#testmonial_part .testimonial {
+    background: url(../image/testbg.png) no-repeat center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#testmonial_part .testimonial ul {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#testmonial_part .testimonial ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#testmonial_part .testimonial ul li button {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 0;
+    outline: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+#testmonial_part .testimonial ul .slick-active button {
+    background: #e23e38;
+    border-color: #e23e38;
+}
+
+#testmonial_part .testimonial .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+#testmonial_part .testimonial .overlay .testsldr .item {
+    width: 47%;
+}
+
+#testmonial_part .testimonial .overlay .testsldr .item .image {
+    display: flex;
+}
+
+#testmonial_part .testimonial .overlay .testsldr .item .image .detail {
+    margin-left: 12px;
+}
+
+#testmonial_part .testimonial .overlay .testsldr .item .image h4 {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#testmonial_part .testimonial .overlay .testsldr .item .image h6 {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    margin: 7px 0;
+}
+
+#testmonial_part .testimonial .overlay .testsldr .item .image i {
+    color: #e23e38;
+    font-size: 14px;
+}
+
+#testmonial_part .testimonial .overlay .testsldr .item .txt p {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 5px;
+    width: 568px;
+}
+
+/**********************testimonial part end*******************/
+
+
+
+
+/***********************Membership part start********************/
+
+#membership_part {
+    margin-top: 80px;
+}
+
+#membership_part .membership {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#membership_part .membership h2 {
+    color: #222222;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #dddddd;
+    padding: 20px 0;
+    transition: .4s;
+}
+
+#membership_part .membership .price{
+    background: url(../image/memberbg1.png) no-repeat center;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+#membership_part .membership .price .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    padding: 40px 0;
+}
+
+#membership_part .membership .price .overlay p {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#membership_part .membership .price .overlay span {
+    color: #fff;
+    font-size: 29px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#membership_part .membership ul{
+    background: #f1f1f1;
+    padding: 40px 0;
+    margin-bottom: 0 !important;
+}
+
+#membership_part .membership ul li{
+    color: #444444;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+}
+
+#membership_part .membership a{
+    color: #222222;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    background: #dddddd;
+    padding: 10px;
+    transition: .4s;
+}
+
+#membership_part .membership:hover h2{
+    background: #e23e38;
+    color: #fff;
+}
+#membership_part .membership:hover a{
+    background: #e23e38;
+    color: #fff;
+}
+
+/***********************Membership part end********************/
+
+
+
+
+
+/***********************counter part start********************/
+
+#counter_part{
+    background: url(../image/counterbg.png) no-repeat center;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+#counter_part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+    padding: 45px 0;
+
+}
+
+#counter_part .overlay .first h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+#counter_part .overlay .first p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#counter_part .overlay .cnt{
+    margin-left: 70px;
+}
+
+#counter_part .overlay .cnt h2{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+
+}
+
+#counter_part .overlay .cnt p{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/***********************counter part end********************/
+
+
+
+
+/***********************class part start********************/
+
+
+
+/***********************class part end********************/
+
+
+
+
+
+/***********************sponsor part start********************/
+
+#sponsor_part{
+    margin-top: 80px;
+}
+
+#sponsor_part .sponsor_slider{
+    position: relative;
+    margin: 0 10px;
+}
+
+#sponsor_part .sponsor_slider .prev{
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    left: -15px;
+}
+#sponsor_part .sponsor_slider .next{
+    font-size: 28px;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+}
+
+/***********************sponsor part end********************/
+
+
+
+
+/***********************footer part start********************/
+ 
+#footer_part{
+    background: url(../image/footerbg.png) no-repeat center;
+    background-size: cover;
+    margin-top: 80px;
+}
+#footer_part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .85);
+    padding-top: 30px;
+}
+
+#footer_part .overlay .logo{
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 30px;
+}
+
+#footer_part .overlay h4{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin: 30px 0;
+    
+}
+
+#footer_part .overlay ul li{
+    color: #fff;
+    margin-top: 7px;
+    font-size: 13px;
+    position: relative;
+    
+}
+
+#footer_part .overlay ul li span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 56%;
+}
+
+#footer_part .overlay .twt{
+    display: flex;
+}
+
+#footer_part .overlay .tt{
+    margin-top: 30px;
+}
+
+#footer_part .overlay .twt .icon i{
+    color: #1da1f2;
+}
+
+#footer_part .overlay .twt .text p{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+}
+
+#footer_part .overlay .image img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+}
+
+#footer_part .overlay .address{
+    display: flex;
+    margin-top: 12px;
+}
+
+#footer_part .overlay .address .icon i{
+    color: #e23e38;
+    font-size: 15px;
+}
+#footer_part .overlay .address .dtl p{
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+}
+
+
+#footer_part .overlay .box_icn .icon i{
+   color: #fff;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    background: transparent;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 7px;
+    margin-bottom: 15px;
+}
+
+#footer_part .overlay .box_icn .icon i:hover{
+    background: #e23e38;
+    border-color: #e23e38;
+}
+
+
+#footer_part .overlay .down{
+    color: #fff;
+    font-size:   13px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0;
+    border-top: 2px solid #fff;
+    text-align: center;
+}
+
+#footer_part .overlay .down span{
+    color: #e23e38;
+    font-size:   16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/***********************footer part end********************/
+
+
+
+

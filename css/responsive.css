@@ -1,0 +1,175 @@
+@media (min-width:320px) and (max-width:575px) {
+    /* nav start  */
+
+    nav {
+        top: 0;
+        padding: 10px 0 !important;
+    }
+
+    nav .navbar-brand {
+        width: auto;
+        height: auto;
+        line-height: 0;
+        background: transparent;
+        position: static;
+    }
+
+    nav .navbar-brand img {
+        width: 75%;
+    }
+
+    ul li {
+        text-align: center;
+    }
+
+    ul li a {
+        margin-left: 0;
+    }
+
+    /* nav end  */
+
+
+
+    /*  banner start  */
+
+    #banner_part .banner .overlay {
+        padding-top: 190px;
+        padding-bottom: 130px;
+    }
+
+    #banner_part .banner .overlay .text {
+        text-align: center;
+        width: auto;
+    }
+
+    #banner_part .banner .overlay .text h3 {
+        font-size: 20px;
+    }
+
+    #banner_part .banner .overlay .text h1 {
+        font-size: 45px;
+        margin: 15px 0;
+    }
+
+    #banner_part .banner .overlay .text h3:before {
+        display: none;
+    }
+
+    #banner_part .banner .overlay .text h3:after {
+        display: none;
+    }
+
+    #banner_part .banner .overlay .text h1:before {
+        display: none;
+    }
+
+    #banner_part .banner .overlay .text h1:after {
+        display: none;
+    }
+
+    #banner_part .banner .overlay .text p:before {
+        display: none;
+    }
+
+    #banner_part .banner .overlay .text p:after {
+        display: none;
+    }
+
+    #banner_part .banner .overlay .text p {
+        width: auto;
+        position: static;
+        font-size: 12px;
+    }
+
+    #banner_part .banner .overlay .text a {
+        font-size: 14px;
+    }
+
+    
+    
+
+
+    #banner_part .two .ovrly {
+        padding-top: 190px;
+        padding-bottom: 130px;
+    }
+
+    #banner_part .two .ovrly .text {
+        margin-left: 0;
+        width: auto;
+        text-align: center;
+    }
+
+    #banner_part .two .ovrly .text h3 {
+        font-size: 20px;
+    }
+
+    #banner_part .two .ovrly .text h1 {
+        font-size: 45px;
+        margin: 15px 0;
+    }
+
+    #banner_part .two .ovrly .text p {
+        width: auto;
+        font-size: 12px;
+    }
+
+    #banner_part .two .ovrly .text a {
+        font-size: 14px;
+    }
+
+
+
+
+
+    #banner_part .three .ovrly {
+        padding-top: 190px;
+        padding-bottom: 130px;
+    }
+
+    #banner_part .three .ovrly .text {
+        margin-left: 0;
+        width: auto;
+        text-align: center;
+    }
+
+    #banner_part .three .ovrly .text h3 {
+        font-size: 20px;
+    }
+
+    #banner_part .three .ovrly .text h1 {
+        font-size: 45px;
+        margin: 15px 0;
+    }
+
+    #banner_part .three .ovrly .text p {
+        width: auto;
+        font-size: 12px;
+    }
+
+    #banner_part .three .ovrly .text a {
+        font-size: 14px;
+    }
+
+
+
+    /*  banner end   */
+
+
+
+    /*about part start*/
+
+    #about_part .title {
+        margin-top: 30px;
+    }
+
+    #about_part .detail p {
+        width: auto;
+        margin-left: 0;
+    }
+
+    /*about part end*/
+
+
+
+}
