@@ -134,8 +134,8 @@ ul li a:hover:after {
 
 #banner_part .banner .overlay .text h3:after {
     position: absolute;
-    top: -90%;
-    left: 255px;
+    top: -95%;
+    left: 167px;
     width: 170px;
     height: 2px;
     background: #e23e38;
@@ -144,8 +144,8 @@ ul li a:hover:after {
 
 #banner_part .banner .overlay .text h3:before {
     position: absolute;
-    top: -90%;
-    right: 230px;
+    top: -95%;
+    right: 142px;
     width: 140px;
     height: 2px;
     background: #e23e38;
@@ -164,8 +164,8 @@ ul li a:hover:after {
 
 #banner_part .banner .overlay .text h1:after {
     position: absolute;
-    top: -87px;
-    left: 255px;
+    top: -89px;
+    left: 167px;
     width: 2px;
     height: 260px;
     background: #e23e38;
@@ -174,8 +174,8 @@ ul li a:hover:after {
 
 #banner_part .banner .overlay .text h1:before {
     position: absolute;
-    top: -87px;
-    right: 230px;
+    top: -89px;
+    right: 142px;
     width: 2px;
     height: 260px;
     background: #e23e38;
@@ -709,7 +709,7 @@ ul li a:hover:after {
     font-size: 14px;
     font-family: 'Oswald', sans-serif;
     margin-top: 5px;
-    width: 568px;
+    width: 452px;
 }
 
 /**********************testimonial part end*******************/
@@ -879,14 +879,14 @@ ul li a:hover:after {
 #sponsor_part .sponsor_slider .prev{
     font-size: 28px;
     position: absolute;
-    top: 50%;
-    left: -15px;
+    top: 33%;
+    left: -17px;
 }
 #sponsor_part .sponsor_slider .next{
     font-size: 28px;
     position: absolute;
-    top: 50%;
-    right: -15px;
+    top: 33%;
+    right: -17px;
 }
 
 /***********************sponsor part end********************/
@@ -935,7 +935,7 @@ ul li a:hover:after {
     position: absolute;
     top: 0;
     right: 0;
-    width: 56%;
+    width: 63%;
 }
 
 #footer_part .overlay .twt{
@@ -990,6 +990,7 @@ ul li a:hover:after {
     line-height: 30px;
     margin-left: 7px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 #footer_part .overlay .box_icn .icon i:hover{
@@ -1011,6 +1012,7 @@ ul li a:hover:after {
     color: #e23e38;
     font-size:   16px;
     font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
 }
 
 /***********************footer part end********************/
